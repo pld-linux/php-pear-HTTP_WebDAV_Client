@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 RFC2518 compliant stream wrapper that allows to use WebDAV server
 resources like a regular file system from within PHP.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Zgodny z RFC2518 wrapper dla strumieni umo¿liwiaj±cy obs³ugê zasobów
