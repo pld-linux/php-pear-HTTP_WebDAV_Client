@@ -1,11 +1,11 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          HTTP
-%define         _subclass       WebDAV
+%define		_class		HTTP
+%define		_subclass	WebDAV
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}_Client
 
 Summary:	%{_pearname} - WebDAV stream wrapper class
-Summary(pl):	%{_pearname} - Wrapper dla strumienia WebDAV
+Summary(pl):	%{_pearname} - wrapper dla strumienia WebDAV
 Name:		php-pear-%{_pearname}
 Version:	0.9.6
 Release:	1
