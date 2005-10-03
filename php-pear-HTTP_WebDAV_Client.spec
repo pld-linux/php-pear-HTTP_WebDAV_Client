@@ -8,14 +8,16 @@ Summary:	%{_pearname} - WebDAV stream wrapper class
 Summary(pl):	%{_pearname} - wrapper dla strumienia WebDAV
 Name:		php-pear-%{_pearname}
 Version:	0.9.7
-Release:	1.1
+Release:	1.2
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	cbeaaaf935de86fc036d51fa29e437bc
 URL:		http://pear.php.net/package/HTTP_WebDAV_Client/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
+Requires:	php-common >= 3:4.3
 Requires:	php-pear
+Requires:	php-pear-HTTP_Request >= 1.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
