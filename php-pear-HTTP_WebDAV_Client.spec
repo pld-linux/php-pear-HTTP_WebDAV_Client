@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}_Client
 
 Summary:	%{_pearname} - WebDAV stream wrapper class
-Summary(pl):	%{_pearname} - wrapper dla strumienia WebDAV
+Summary(pl.UTF-8):   %{_pearname} - wrapper dla strumienia WebDAV
 Name:		php-pear-%{_pearname}
 Version:	0.9.7
 Release:	3
@@ -29,9 +29,9 @@ resources like a regular file system from within PHP.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Zgodny z RFC2518 wrapper dla strumieni umoøliwiaj±cy obs≥ugÍ zasobÛw
-serwera WebDAV tak jak gdyby to by≥ zwyk≥y plik.
+%description -l pl.UTF-8
+Zgodny z RFC2518 wrapper dla strumieni umo≈ºliwiajƒÖcy obs≈Çugƒô zasob√≥w
+serwera WebDAV tak jak gdyby to by≈Ç zwyk≈Çy plik.
 
 Ta klasa ma w PEAR status: %{_status}.
 
