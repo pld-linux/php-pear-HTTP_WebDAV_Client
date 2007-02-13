@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}_Client
 
 Summary:	%{_pearname} - WebDAV stream wrapper class
-Summary(pl.UTF-8):   %{_pearname} - wrapper dla strumienia WebDAV
+Summary(pl.UTF-8):	%{_pearname} - wrapper dla strumienia WebDAV
 Name:		php-pear-%{_pearname}
 Version:	0.9.7
 Release:	3
