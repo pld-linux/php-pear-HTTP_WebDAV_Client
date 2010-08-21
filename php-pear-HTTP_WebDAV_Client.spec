@@ -1,20 +1,19 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		HTTP
 %define		_subclass	WebDAV
-%define		_status		beta
+%define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}_Client
-
 Summary:	%{_pearname} - WebDAV stream wrapper class
 Summary(pl.UTF-8):	%{_pearname} - wrapper dla strumienia WebDAV
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
-Release:	1
+Release:	2
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	733466e90cf1c13c95843139a548b9e7
 URL:		http://pear.php.net/package/HTTP_WebDAV_Client/
-BuildRequires:	php-pear-PEAR
+BuildRequires:	php-pear-PEAR >= 1:1.4.0-0.b1
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-common >= 3:4.3
