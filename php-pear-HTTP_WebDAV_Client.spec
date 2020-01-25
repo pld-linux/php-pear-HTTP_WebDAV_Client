@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	HTTP_WebDAV_Client
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - WebDAV stream wrapper class
 Summary(pl.UTF-8):	%{pearname} - wrapper dla strumienia WebDAV
 Name:		php-pear-%{pearname}
